@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>K1-P Karla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="glavna">
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="#forma">forma</a></li>
+                    <li><a href="#tablica">tablica</a></li>
+                    <li><a href="#paragraf">paragraf</a></li>
+                    <li><a href="https://www.grf.unizg.hr/" target="_blank">grf</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1 id="forma">FORMA</h1>
+                <form autocomplete="on">
+                    <label for="ime">Ime:</label>
+                    <input type="text" id="ime" name="ime" autofocus required>
+
+                    <label for="pin">Pin:</label>
+                    <input type="text" id="pin" name="pin" maxlength="4" required>
+
+                    <label for="datum">Datum rođenja?</label>
+                    <input type="date" id="datum" name="datum">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="email@domain.com" required>
+
+                    <label for="web">Web adresa:</label>
+                    <input type="url" id="web" name="web" placeholder="http://web.com" required>
+                <fieldset>
+                    <legend>Kolokvij:</legend>
+                    <input type="radio" name="kolokvij" id="k1"><label for="k1">K1</label><br>
+                    <input type="radio" name="kolokvij" id="k2"><label for="k2">K2</label><br>
+                    <input type="radio" name="kolokvij" id="k3"><label for="k3">K3</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gradivo:</legend>
+                    <input type="checkbox" id="tablice"><label for="tablice">Tablice</label><br>
+                    <input type="checkbox" id="forme"><label for="forme">Forme</label><br>
+                    <input type="checkbox" id="animacija"><label for="animacija">Animacija</label><br>
+                    <input type="checkbox" id="video"><label for="video">Video</label>
+                </fieldset>
+
+                <label for="ocjena">Koju ocjenu očekujete?</label>
+                <input type="text" id="ocjena" list="ocjene">
+                <datalist id="ocjene">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                </datalist>
+
+                <label>Odaberite boju</label>
+                <input type="color" value="#8000ff">
+
+                <br>
+                <input type="submit" value="Pošalji">
+                <input type="reset" value="Poništi">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1 id="tablica">TABLICA 2</h1>
+                <table id="table2">
+                    <tr>
+                        <td class="yellow top-left-radius" colspan="2" rowspan="2"></td>
+                        <td class="purple" rowspan="3"></td>
+                        <td class="top-right-radius"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="green bottom-left-radius"></td>
+                        <td></td>
+                        <td class="bottom-right-radius"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1 id="paragraf">PARAGRAF</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus tortor in lorem tincidunt, placerat rhoncus risus sollicitudin. Fusce porttitor odio sem, a viverra nulla faucibus eget. Pellentesque arcu tortor, placerat ut dignissim ut, porttitor quis tellus. Quisque sollicitudin, ipsum nec gravida viverra, augue nunc sollicitudin odio, ut tempor sem ex ut est. Nunc faucibus aliquam condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis quam nisl, sit amet suscipit urna commodo quis. Etiam facilisis mi vitae blandit sagittis. Aliquam ornare justo quis eros ultricies, eget molestie nibh faucibus. Duis eu purus metus. Aliquam vel ullamcorper tellus. Quisque consectetur, urna a gravida pellentesque, est ipsum gravida eros, sit amet sollicitudin enim justo nec massa. Donec euismod dolor justo, eget ultrices magna congue vitae. Mauris ac leo odio. Praesent ornare gravida lobortis. Nulla gravida enim elit, sit amet accumsan mi mollis a. Mauris mollis condimentum metus. Praesent non nisi viverra nibh mattis lobortis sit amet a purus. Praesent commodo, ex ac bibendum placerat, lacus urna dignissim mi, a consectetur risus tortor nec eros. Mauris posuere egestas nisl, ac efficitur lectus accumsan pretium. Nulla ut ligula sollicitudin, fringilla mauris ac, cursus ex. Sed eros nulla, dictum in tortor a, commodo tincidunt purus. Suspendisse vitae ligula in risus tristique cursus non nec enim. Pellentesque id dolor non enim laoreet molestie ac vel enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras ac quam eget nisl auctor consectetur ac et nisl. Suspendisse cursus, eros at varius egestas, risus diam maximus purus, nec vulputate lectus sem ut nibh. Vivamus dictum venenatis mattis. In vel ante nec libero mollis auctor. Duis laoreet mi eget lacus lacinia, quis commodo orci posuere. Etiam lobortis efficitur dui at scelerisque. Donec fermentum bibendum lacus, id condimentum sem sagittis quis. Integer et hendrerit purus. Vivamus gravida id tortor ut porttitor. Nullam eget viverra velit, sed pellentesque purus. Nullam consequat pellentesque dui sit amet hendrerit. Ut dapibus posuere diam, vel ullamcorper ligula rhoncus id. Praesent eget eros id elit pharetra suscipit sed in nulla. Sed molestie quam ut arcu imperdiet laoreet eu et leo. Duis ultrices ac nibh sit amet dignissim. Aenean molestie enim in lacus placerat scelerisque. Nulla tellus orci, efficitur ullamcorper mauris ac, sagittis facilisis elit. Maecenas dolor arcu, ultricies vel tincidunt ullamcorper, congue quis arcu. In congue massa ultricies, rutrum eros in, cursus ipsum. Proin vitae volutpat ex. Nullam non pretium odio. Etiam pulvinar viverra mauris. Aenean non nunc vitae sem dignissim suscipit. In porttitor lacus ut velit iaculis dictum.</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
